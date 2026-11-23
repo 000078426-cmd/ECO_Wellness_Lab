@@ -1,0 +1,23 @@
+@media(max-width:810px) {
+  .nav {
+    display:flex;
+    position:static;
+    box-shadow:none;
+    padding:0;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap:0 10px
+  }
+  .nav a {
+    padding:3px 0;
+    border:0
+  }
+  .bar {
+    height:auto;
+    min-height:65px;
+    padding-block:9px
+  }
+  .menu {
+    display:none
+  }
+}
